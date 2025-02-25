@@ -8,31 +8,31 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     public class Category
     {
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public bool CategoryStatus { get; set; }
         public List<Product> Products { get; set; }
     }
 }
 
-/*
+///*
  
-Field-Variable-Property
+//Field-Variable-Property
 
- */
+// */
 
-/*
- int x; ---> Field --> alan class'ın direct içinde tanımlanıyorsa Field 
-*/
+///*
+// int x; ---> Field --> alan class'ın direct içinde tanımlanıyorsa Field 
+//*/
 
-/*
- public int  y {get; set; } --> property --> alan
-*/
+///*
+// public int  y {get; set; } --> property --> alan
+//*/
 
-/*
- void test.()
-{
-    int z;
-}
------> Değişken -- > Variable
-*/ 
+///*
+// void test.()
+//{
+//    int z;
+//}
+//-----> Değişken -- > Variable
+//*/ 
